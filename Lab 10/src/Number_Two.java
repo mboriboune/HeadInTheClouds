@@ -12,9 +12,12 @@ public class Number_Two {
 		
 	}
 	public static void splitter(String y, int x) {
-		for (int i = 0; i< y.length(); i+=3) {
-			if(i<=y.length()-3) {
-			System.out.println(y.substring (i, i+x)); 
+		for (int i = 0; i< y.length(); i+=x) {
+			if(i+x < y.length()) {
+			System.out.println(y.substring (i, i+x));
+			}
+			else {
+				System.out.println(y.substring(i,y.length()));
 
 			}
 
