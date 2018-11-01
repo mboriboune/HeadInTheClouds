@@ -1,11 +1,18 @@
 
-public class cookies {
-	public static void main(String[] args){
-		for(int line = 1; line<=5; line++) {
-			for(int j=line; j<5; j++) {
-				System.out.print(".");
-			}
-			System.out.println(line);
+public class cookies {//prints numbers from 1 to a given maximum.
+		public static void main(String[] args) {      
+		    
+			printNumbers(10);
+		   }
+		public static void printNumbers(int x) {
+			System.out.print("1");
+			int i =2;
+			while(i<x) {
+				if(i%2!=0) {
+					System.out.print(","+i);
+				}
+				i++;
+				}
 		}
-	}
 }
+	

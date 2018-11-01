@@ -9,7 +9,7 @@ public class problem_6 {
 		for (int i = 0; i< a.length(); i++) {
 			char H = a.charAt(i);
 			System.out.println(H);
-	}
+		}
 
 }
 }
